@@ -6,6 +6,8 @@ class Main {
     Stack<Integer> stack = new Stack<>();
     StackMethods stackMethods = new StackMethods();
     stackMethods.populateStack(stack);
+    System.out.println(stack);
     stackMethods.removeMiddleItem(stack);
+    System.out.println(stack);
   }
 }
